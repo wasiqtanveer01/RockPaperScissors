@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: roboto;
+	background: #263238;
+}
+
+header{
+	background: #fff;
+}
+
+header h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 35px;
+	padding: 20px;
+	user-select: none;
+}
+
+#MadeBy{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	padding: 20px;
+	color: white;
+	font-size: 15px;
+	user-select: none;
+
+}
+
+.ScoreBoard{
+	border: 3px solid #fff;
+	margin: 30px auto;
+	width: 25%;
+	text-align: center;
+	border-radius: 5px;
+	padding: 10px;
+	position: relative;
+	font-size: 45px;
+	color: white;
+	user-select: none;
+}
+
+.badge{
+	background: #00796B;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding: 5px;
+}
+
+#UserName{
+	position: absolute;
+	top: 32.5%;
+	left: -25px;
+}
+
+#ComputerName{
+	position: absolute;
+	top: 32.5%;
+	right: -25px;
+}
+
+.result{
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	user-select: none;
+
+}
+
+.choices{
+	text-align: center;
+	margin: 30px auto;
+}
+
+.choice:hover{
+	cursor: pointer;
+	background: #00796b;
+}
+
+.choice{
+	display: inline-block;
+	padding: 0 20px;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	padding: 15px;
+	margin: auto 15px;
+	transition: all 0.3s ease;
+}
+
+#ActionMsg{
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	user-select: none;
+}
+
+.GreenGlow{
+	border: solid #4dcc7b;
+	box-shadow: 0 0 20px #043507;
+	/*background: #4dcc7b;*/
+}
+
+.GrayGlow{
+	border: solid #5f5f5f;
+	box-shadow: 0 0 20px #484848;
+	/*background: #5f5f5f;*/
+}
+
+.RedGlow{
+	border: solid #fc121b;
+	box-shadow: 0 0 20px #d01115;
+	/*background: #fc121b;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
